@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   Dog.hpp                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kfouad <kfouad@student.1337.ma>            +#+  +:+       +#+        */
+/*   By: khalid <khalid@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/30 13:54:20 by kfouad            #+#    #+#             */
-/*   Updated: 2024/09/30 13:54:22 by kfouad           ###   ########.fr       */
+/*   Updated: 2024/10/01 16:16:48 by khalid           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,11 +27,6 @@ public:
 
     void makeSound() const;
     std::string getType() const;
-
-    void ft()
-    {
-        std::cout << "ft sound!" << std::endl;
-    };
 };
 
 #endif
