@@ -6,7 +6,7 @@
 /*   By: kfouad <kfouad@student.1337.ma>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/30 15:06:02 by kfouad            #+#    #+#             */
-/*   Updated: 2024/09/30 15:06:04 by kfouad           ###   ########.fr       */
+/*   Updated: 2024/10/06 19:18:52 by kfouad           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,9 +16,13 @@
 #include <iostream>
 #include <string.h>
 #include "Animal.hpp"
+#include "Brain.hpp"
 
 class Cat : public Animal
 {
+private:
+    Brain *brain;
+
 public:
     Cat();
     Cat(const Cat &old);
